@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="">
+<meta name="description" content=" Learning Outcomes The student should become familiar with technologies for software specification and verification that provide deep semantic reasoning about development artifacts such as functional models, architecture, and source-code implementations.
+Topics After a brief introduction, we shall cover:
+Alloy which brings specifications to life by allowing designers to query constructed models via its constraint analyzer and to easily assess the impact of model refinements. SysMLv2 which is the upcoming modeling language in practice, with the HAMR framework providing some useful code generation/testing capabilities and for reasoning about GUMBO contract specifications. Verus which is a Rust program verifier. Books Software Abstraction, by Daniel Jackson (recommended) Schedule Only online.
+" />
+<meta name="keywords" content="" />
+<meta name="robots" content="noodp" />
+<meta name="theme-color" content="" />
+<link rel="canonical" href="https://s26.softwarespecs.santoslab.org/syllabus/" />
+
+
+    <title>
+        
+            Syllabus :: CIS 771: Software Specifications Website 
+        
+    </title>
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css" integrity="sha512-Cv93isQdFwaKBV+Z4X8kaVBYWHST58Xb/jVOcV9aRsGSArZsgAnFIhMpDoMDcFNoUtday1hdjn0nGp3+KZyyFw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jstree/3.3.14/themes/default/style.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jstree/3.3.14/themes/default-dark/style.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+
+<link rel="stylesheet" href="https://s26.softwarespecs.santoslab.org/main.bb5800eee8f586a18b3279c31871b8200e8241f03fc81c3b9f32c53095be4e99.css" integrity="sha256-u1gA7uj1hqGLMnnDGHG4IA6CQfA/yBw7nzLFMJW&#43;Tpk=">
+
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="https://s26.softwarespecs.santoslab.org/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://s26.softwarespecs.santoslab.org/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://s26.softwarespecs.santoslab.org/favicon-16x16.png">
+    <link rel="manifest" href="https://s26.softwarespecs.santoslab.org/site.webmanifest">
+    <link rel="mask-icon" href="https://s26.softwarespecs.santoslab.org/safari-pinned-tab.svg" color="">
+    <link rel="shortcut icon" href="https://s26.softwarespecs.santoslab.org/favicon.ico">
+    <meta name="msapplication-TileColor" content="">
+
+
+
+  <meta itemprop="name" content="Syllabus">
+  <meta itemprop="description" content="Learning Outcomes The student should become familiar with technologies for software specification and verification that provide deep semantic reasoning about development artifacts such as functional models, architecture, and source-code implementations.
+Topics After a brief introduction, we shall cover:
+Alloy which brings specifications to life by allowing designers to query constructed models via its constraint analyzer and to easily assess the impact of model refinements. SysMLv2 which is the upcoming modeling language in practice, with the HAMR framework providing some useful code generation/testing capabilities and for reasoning about GUMBO contract specifications. Verus which is a Rust program verifier. Books Software Abstraction, by Daniel Jackson (recommended) Schedule Only online.">
+  <meta itemprop="wordCount" content="1551">
+  <meta itemprop="image" content="https://s26.softwarespecs.santoslab.org/">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://s26.softwarespecs.santoslab.org/">
+  <meta name="twitter:title" content="Syllabus">
+  <meta name="twitter:description" content="Learning Outcomes The student should become familiar with technologies for software specification and verification that provide deep semantic reasoning about development artifacts such as functional models, architecture, and source-code implementations.
+Topics After a brief introduction, we shall cover:
+Alloy which brings specifications to life by allowing designers to query constructed models via its constraint analyzer and to easily assess the impact of model refinements. SysMLv2 which is the upcoming modeling language in practice, with the HAMR framework providing some useful code generation/testing capabilities and for reasoning about GUMBO contract specifications. Verus which is a Rust program verifier. Books Software Abstraction, by Daniel Jackson (recommended) Schedule Only online.">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </head>
+
+    
+        <body>
+    
+    
+        <div class="container">
+            <header class="header">
+    <span class="menu-trigger">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M0 0h24v24H0z" fill="none"/>
+            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+        </svg>
+    </span>
+    <span class="header__inner">
+        <a href="https://s26.softwarespecs.santoslab.org/" style="text-decoration: none;">
+    <div class="logo">
+        
+            <span class="logo__mark"> </span>
+            <span class="logo__text">Home</span>
+            <span class="logo__cursor" style=
+                  "visibility:hidden;
+                   
+                   ">
+            </span>
+        
+    </div>
+</a>
+
+
+        <span class="header__right">
+            
+                
+
+<nav class="menu">
+  <ul class="menu__inner">
+  
+  
+    
+      <div>
+        <li>
+          <a href="https://s26.softwarespecs.santoslab.org/syllabus/" onmouseover="menuUnderline(this, true);" onmouseout="menuUnderline(this, false);">
+            <span class="responsive-title-long">Syllabus</span>
+            <span class="responsive-title-short">Syllabus</span>
+          </a>
+        </li>
+      </div>
+    
+  
+
+  
+  
+    
+      <div>
+        <li>
+          <a href="https://s26.softwarespecs.santoslab.org/schedule/" onmouseover="menuUnderline(this, true);" onmouseout="menuUnderline(this, false);">
+            <span class="responsive-title-long">Schedule</span>
+            <span class="responsive-title-short">Schedule</span>
+          </a>
+        </li>
+      </div>
+    
+  
+
+  
+  
+    
+      <div>
+        <li>
+          <a href="https://s26.softwarespecs.santoslab.org/notes/" onmouseover="menuUnderline(this, true);" onmouseout="menuUnderline(this, false);">
+            <span class="responsive-title-long">Notes</span>
+            <span class="responsive-title-short">Notes</span>
+          </a>
+        </li>
+      </div>
+    
+  
+
+  </ul>
+</nav>
+
+            
+        </span>
+    </span>
+        <span class="theme-toggle not-selectable"><img src="https://s26.softwarespecs.santoslab.org/img/toggle.png" height="20px"></span>
+</header>
+
+
+            <div class="content">
+                
+    <main class="post">
+
+        <div class="post-info">
+            
+            </p>
+        </div>
+
+        <article>
+            <h2 class="post-title"><a href="https://s26.softwarespecs.santoslab.org/syllabus/">Syllabus</a></h2>
+
+            
+            
+            
+
+            <div class="post-content">
+                <hr>
+<h4 id="learning-outcomes">Learning Outcomes</h4>
+<p>The student should become familiar with technologies for software specification and verification that provide deep semantic reasoning about development artifacts such as functional models, architecture, and source-code implementations.</p>
+<h4 id="topics">Topics</h4>
+<p>After a brief introduction, we shall cover:</p>
+<ul>
+<li>Alloy which brings specifications to life by allowing designers to query constructed models via its constraint analyzer and to easily assess the impact of model refinements.</li>
+<li>SysMLv2 which is the upcoming modeling language in practice, with the HAMR framework providing some useful code generation/testing capabilities and for reasoning about GUMBO contract specifications.</li>
+<li>Verus which is a Rust program verifier.</li>
+</ul>
+<h4 id="books">Books</h4>
+<ul>
+<li><a href="https://softwareabstractions.org/">Software Abstraction, by Daniel Jackson</a> (recommended)</li>
+</ul>
+<h4 id="schedule">Schedule</h4>
+<p>Only online.</p>
+<h4 id="prerequisites">Prerequisites</h4>
+<ul>
+<li>CIS 301, or familiarity with basic set theory.</li>
+<li>We expect that you have had a software engineering course, and have some experience building some non-trivial programs in an object-oriented language.</li>
+</ul>
+<h4 id="credits">Credits</h4>
+<ul>
+<li>3 credits</li>
+</ul>
+<h4 id="instructors">Instructors</h4>
+<ul>
+<li><a href="https://cs.ksu.edu/~robby">Robby</a>,
+Office: 2181 <a href="https://www.k-state.edu/maps/buildings/DUE/">Engineering Hall</a>,
+E-mail: <code>robby at k-state.edu</code>,
+Office Hours: by appointment</li>
+</ul>
+<h4 id="grading">Grading</h4>
+<ul>
+<li>Exam (16%)</li>
+<li>Projects (84%)</li>
+</ul>
+<h4 id="grading-policy">Grading Policy</h4>
+<p>The course <a href="https://s26.softwarespecs.santoslab.org/schedule">Schedule</a> page gives the due dates for all assignments. This is to facilitate your planning and time-management. Given this, we expect assignments to be turned in on the due date unless prior arrangements have been made; late assignments receive a reduction of 1% of the total possible points for each hour after the due date/time.</p>
+<h4 id="grading-scale">Grading Scale</h4>
+<p>Course grades are absolute, that is, there is no curve, and will be calculated based on your overall percentage on assignments as follows:</p>
+<ul>
+<li>A: 90% – 100%</li>
+<li>B: 80% – 89%</li>
+<li>C: 70% – 79%</li>
+<li>D: 60% – 69%</li>
+<li>F: below 60%</li>
+</ul>
+<p>There is one additional constraint on your final grade. To receive a letter grade of A, you must achieve at least a B on one of the exams. Similarly, to receive a B you must achieve a C, C you must achieve a D on one of the exams.</p>
+<h4 id="computer-access">Computer Access</h4>
+<p>This course involves significant use of software tools. Many of these can be accessed by you (for free) and installed on your own machine. If you prefer, we have everything you need on our CIS department machines so you can get an account on our machines. See the Notes page for information on how to get an account and use our machines.</p>
+<h4 id="attendance-policy">Attendance Policy</h4>
+<p>In general, there will be NO make-up quizzes or exams! Special consideration will be given in only exceptional circumstances. Exceptional circumstances are generally limited to:</p>
+<p><strong>Emergencies</strong>: death in student’s immediate family, or near-death experience of the student.</p>
+<p><strong>Non-emergencies</strong>: certified excused absences for official university activities.</p>
+<p>If you believe you qualify for exceptional treatment, you must notify the instructor prior to the date of the quiz or exam to be missed.</p>
+<h4 id="statement-regarding-academic-honesty">Statement Regarding Academic Honesty</h4>
+<p>Kansas State University has an Honor and Integrity System based on personal integrity, which is presumed to be sufficient assurance that, in academic matters, one’s work is performed honestly and without unauthorized assistance. Undergraduate and graduate students, by registration, acknowledge the jurisdiction of the Honor and Integrity System. The policies and procedures of the Honor and Integrity System apply to all full and part-time students enrolled in undergraduate and graduate courses on-campus, off-campus, and via distance learning. A component vital to the Honor and Integrity System is the inclusion of the Honor Pledge which applies to all assignments, examinations, or other course work undertaken by students. The Honor Pledge is implied, whether or not it is stated: “On my honor, as a student, I have neither given nor received unauthorized aid on this academic work.” A grade of XF can result from a breach of academic honesty. The F indicates failure in the course; the X indicates the reason is an Honor Pledge violation.</p>
+<h4 id="statement-regarding-students-with-disabilities">Statement Regarding Students with Disabilities</h4>
+<p>At K-State it is important that every student has access to course content and the means to demonstrate course mastery. Students with disabilities may benefit from services including accommodations provided by the Student Access Center. Disabilities can include physical, learning, executive functions, and mental health. You may register at the Student Access Center (<a href="https://k-state.edu/accesscenter">https://k-state.edu/accesscenter</a>) or to learn more contact:</p>
+<p>Manhattan – Student Access Center <a href="mailto:accesscenter@k-state.edu">accesscenter@k-state.edu</a> 785-532-6441</p>
+<p>Students already registered with the Student Access Center please request your Letters of Accommodation early in the semester to provide adequate time to arrange your approved academic accommodations. Once SAC approves your Letter of Accommodation it will be e-mailed to you, and your instructor(s) for this course. Please follow up with your instructor to discuss how best to implement the approved accommodations.</p>
+<h4 id="statement-defining-expectations-for-classroom-conduct">Statement Defining Expectations for Classroom Conduct</h4>
+<p>All student activities in the University, including this course, are governed by the <a href="https://www.k-state.edu/sga/judicial/">Student Judicial Conduct Code</a> as outlined in the Student Governing Association By Laws, Article V, Section 3, number 2. Students who engage in behavior that disrupts the learning environment may be asked to leave the class.</p>
+<h4 id="statement-on-mutual-respect-and-inclusion-in-k-state-teaching-and-learning-spaces">Statement on Mutual Respect and Inclusion in K-State Teaching and Learning Spaces</h4>
+<p>At K-State, faculty and staff are committed to creating and maintaining an inclusive and supportive learning environment for students from diverse backgrounds and perspectives. K-State courses, labs, and other virtual and physical learning spaces promote equitable opportunity to learn, participate, contribute, and succeed, regardless of age, race, color, ethnicity, nationality, genetic information, ancestry, disability, socioeconomic status, military or veteran status, immigration status, Indigenous identity, gender identity, gender expression, sexuality, religion, culture, as well as other social identities.</p>
+<p>Faculty and staff are committed to promoting equity and believe the success of an inclusive learning environment relies on the participation, support, and understanding of all students. Students are encouraged to share their views and lived experiences as they relate to the course or their course experience, while recognizing they are doing so in a learning environment in which all are expected to engage with respect to honor the rights, safety, and dignity of others in keeping with the K-State Principles of Community <a href="https://www.k-state.edu/about/values/community/">https://www.k-state.edu/about/values/community/</a>.</p>
+<p>If you feel uncomfortable because of comments or behavior encountered in this class, you may bring it to the attention of your instructor, advisors, and/or mentors. If you have questions about how to proceed with a confidential process to resolve concerns, please contact the Student Ombudsperson Office. Violations of the student code of conduct can be reported here <a href="https://www.k-state.edu/sga/judicial/student-code-of-conduct.html">https://www.k-state.edu/sga/judicial/student-code-of-conduct.html</a>. If you experience bias or discrimination, it can be reported here <a href="https://www.k-state.edu/report/discrimination/">https://www.k-state.edu/report/discrimination/</a>.</p>
+<h4 id="statement-regarding-discrimination-harassment-and-sexual-harassment">Statement Regarding Discrimination, Harassment, and Sexual Harassment</h4>
+<p>Kansas State University is committed to maintaining academic, housing, and work environments that are free of discrimination, harassment, and sexual harassment. Instructors support the University’s commitment by creating a safe learning environment during this course, free of conduct that would interfere with your academic opportunities. Instructors also have a <a href="https://www.k-state.edu/oie/faqs.html">duty to report</a> any behavior they become aware of that potentially violates the University’s policy prohibiting discrimination, harassment, and sexual harassment (<a href="https://www.k-state.edu/policies/ppm/3000/3010.html">PPM 3010</a>).</p>
+<p>If a student is subjected to discrimination, harassment, or sexual harassment, they are encouraged to make a non-confidential report to the University’s <a href="https://www.k-state.edu/oie/">Office for Institutional Equity (OIE)</a> using the <a href="https://cm.maxient.com/reportingform.php?KansasStateUniv&amp;layout_id=34">online reporting form</a>. Incident disclosure is not required to receive resources at K-State. Reports that include domestic and dating violence, sexual assault, or stalking, should be considered for reporting by the complainant to the <a href="https://www.k-state.edu/police/suggest/">Kansas State University Police Department</a> or the <a href="https://www.rileycountypolice.org/">Riley County Police Department</a>. Reports made to law enforcement are separate from reports made to OIE. A complainant can choose to report to one or both entities. Confidential support and advocacy can be found with the K-State <a href="https://www.k-state.edu/care/">Center for Advocacy, Response, and Education (CARE)</a>. Confidential mental health services can be found with Lafene Counseling and Psychological Services (CAPS). Academic support can be found with the <a href="https://www.k-state.edu/studentlife/">Office of Student Life (OSL)</a>. OSL is a non-confidential resource. A comprehensive list of resources is available here. If you have questions about non-confidential and confidential resources, please contact OIE at <a href="mailto:equity@ksu.edu">equity@ksu.edu</a> or (785) 532-6220.</p>
+<h4 id="statement-regarding-usages-of-artificial-intelligence-ai-resources">Statement Regarding Usages of Artificial Intelligence (AI) Resources</h4>
+<p>You may use Artificial Intelligence (AI) tools to assist your learning in this course, including idea generation and grammar assessments for written assignments. However, you are prohibited from using generative AI tools to completely produce, reproduce, and/or manufacture paper and/or other assignments without using any personal effort devoted to the learning process. If you choose to use AI appropriately, you are expected to provide a citation for it using the following format: “Title of AI Tool. Prompt or brief description of topic of search depending on tool. Date of creation.” Using an AI tool to generate assignment content without proper attribution would be a violation of the <a href="https://www.k-state.edu/honor/basics/pledge.html">K-State Honor Pledge</a>.</p>
+<h4 id="other-administrative-issues">Other Administrative Issues</h4>
+<ul>
+<li>
+<p><strong>Incompletenes</strong>: An incomplete (I) final grade will be given only by prior arrangement in exceptional circumstances conforming to departmental policy in which the bulk of course work has been completed in passing fashion.</p>
+</li>
+<li>
+<p><strong>Drop Policy</strong>: It is your responsibility to drop the course if you are enrolled but decide not to complete the course — there are no “automatic” drops due to nonattendance. The University allows a retake of a course with removal of the prior grade, at most once per course, for a maximum of five courses.</p>
+</li>
+<li>
+<p><strong>Copyright Issues</strong>: Class and lecture notes for this course carry a copyright. Students are prohibited from selling (or being paid for taking) notes during this course to or by any person or commercial firm without the express written permission of the professor teaching this course.</p>
+</li>
+</ul>
+
+            </div>
+        </article>
+
+        <hr />
+
+        
+
+
+        <div class="post-info">
+            
+            
+  		</div>
+    </main>
+
+            </div>
+
+            
+                <footer class="footer">
+    
+    
+</footer>
+
+            
+        </div>
+
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous"></script>
+
+
+
+<script type="text/javascript" src="https://s26.softwarespecs.santoslab.org/bundle.min.d9847dec188cb3ba71e262769d7f64069d223c3a9713999a5da5f7aca5638686e15a900ac07cc755d19861961f24145ef2d608296933e4150cae87f4911a7dbb.js" integrity="sha512-2YR97BiMs7px4mJ2nX9kBp0iPDqXE5maXaX3rKVjhobhWpAKwHzHVdGYYZYfJBRe8tYIKWkz5BUMrof0kRp9uw=="></script>
+
+
+<script defer type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/thecarnie-cycle2/2.1.6c/jquery.cycle2.min.js" integrity="sha512-ydWfQuPu+srw5hhkU8O1XGn3/Kc+GyoDBvYc8E+SyuZKphQP18ZWYKywIFzPWZwQk6dlmTY69aDg/SnFz3qPeQ==" crossorigin="anonymous"></script>
+<script defer type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/js/all.min.js" integrity="sha512-rpLlll167T5LJHwp0waJCh3ZRf7pO6IT1+LZOhAyP6phAirwchClbTZV3iqL3BMrVxIYRbzGTpli4rfxsCK6Vw==" crossorigin="anonymous"></script>
+<script defer type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jstree/3.3.14/jstree.min.js" integrity="sha512-OQ2by9SrJBwcXaeYmkG2t6FVZiwpyRtFar2VvULjuq5OjVpJLwsUHuNzN9PClqEJAYsWsRPSb4TTfriZzPGiow==" crossorigin="anonymous"></script>
+<script style="text/javascript">
+  window.addEventListener('load', function () {
+    $('#page-tree').jstree({
+      "core": {
+        "themes": {
+          "name": document.documentElement.getAttribute("data-theme") == "dark" ? "default-dark" : "default",
+          "dots": true,
+          "icons": false,
+          "variant": "large"
+        }
+      },
+      plugins: [ "ui" ],
+    }).bind("select_node.jstree", function (e, data) {
+      document.location.href = data.node.a_attr.href;
+    }).bind("ready.jstree", function (event, data) {
+      $(this).jstree("open_all");
+    }).bind("open_all.jstree", function (event, data) {
+      level = 0;
+      data.instance.element.find('li').each(function() {
+        if (level > 0 && data.instance.get_path(this).length >= level){
+          data.instance.close_node(this);
+        }
+      });
+      data.instance.element.get()[0].style.display="block";
+    });
+  });
+</script>
+
+
+    </body>
+</html>

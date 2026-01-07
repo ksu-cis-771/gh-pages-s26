@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CIS 706/801: Translator Design I &amp; II, Fall 2024 on CIS 771: Software Specifications Website</title>
+    <link>https://s26.softwarespecs.santoslab.org/</link>
+    <description>Recent content in CIS 706/801: Translator Design I &amp; II, Fall 2024 on CIS 771: Software Specifications Website</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://s26.softwarespecs.santoslab.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Advice</title>
+      <link>https://s26.softwarespecs.santoslab.org/advice/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://s26.softwarespecs.santoslab.org/advice/</guid>
+      <description>&lt;hr&gt;&#xA;&lt;h4 id=&#34;how-to-survive-in-this-course&#34;&gt;How To Survive in This Course&lt;/h4&gt;&#xA;&lt;p&gt;We cover a lot of materials in this course, and it is easy to get lost quickly if you do not keep up daily. We try to do several things to help you keep up. We provide the lecture slides and links to some additional resources.&lt;/p&gt;&#xA;&lt;p&gt;Besides all these, there are a number of things that you should do to make sure that you are getting the most out of the course. Before attending each lecture you should read the required reading material. After attending each lecture, you should review the lecture slides and any notes you have taken, then note any questions that are unresolved. You should bring those questions to the next lecture (or come to our office/emails). Obviously, you should review the weekly objectives to prepare for the quizzes. Throughout the course you should do the homework as independently and as completely as possible. If you do not do the homework, you will have difficulty on the quizzes and the exams.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Notes</title>
+      <link>https://s26.softwarespecs.santoslab.org/notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://s26.softwarespecs.santoslab.org/notes/</guid>
+      <description>&lt;hr&gt;&#xA;&lt;h4 id=&#34;cis-account&#34;&gt;CIS Account&lt;/h4&gt;&#xA;&lt;p&gt;If you do not have a CIS account, here is how to get one:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Get a K-State eID if you don’t already have one.&lt;/li&gt;&#xA;&lt;li&gt;Sign up online for a CIS account (which requires an active eID first!).&lt;/li&gt;&#xA;&lt;li&gt;The account manager will approve your account and you will receive a password by email to by your eID account.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h4 id=&#34;github-account&#34;&gt;GitHub Account&lt;/h4&gt;&#xA;&lt;p&gt;Coursework submissions will be done via &lt;a href=&#34;https://github.com&#34;&gt;GitHub&lt;/a&gt;. In the beginning of the course, each student will be given a private GitHub repository; thus, you need to have a GitHub account.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Schedule</title>
+      <link>https://s26.softwarespecs.santoslab.org/schedule/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://s26.softwarespecs.santoslab.org/schedule/</guid>
+      <description>&lt;hr&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;table&gt;&#xA;    &#xA;    &#xA;    &#xA;    &#xA;    &lt;tr&gt;&#xA;         &lt;th&gt;Week of&lt;/th&gt;  &lt;th&gt;Lectures/Lab&lt;/th&gt; &#xA;    &lt;/tr&gt;&#xA;    &#xA;    &#xA;    &lt;tr&gt;&#xA;        &#xA;        &#xA;        &lt;td&gt;&lt;p&gt;&lt;ol&gt;&#xA;&lt;li&gt;Jan 18&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/p&gt;&lt;/td&gt;&#xA;        &#xA;        &#xA;        &#xA;        &lt;td&gt;&lt;p&gt;&lt;ul&gt;&#xA;&lt;li&gt;Course Overview&lt;/li&gt;&#xA;&lt;li&gt;Sets and Relations&lt;/li&gt;&#xA;&lt;li&gt;Install: &lt;a href=&#34;https://github.com/AlloyTools/org.alloytools.alloy/releases/tag/v5.1.0&#34;&gt;Alloy 5.1.0&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/p&gt;&lt;/td&gt;&#xA;        &#xA;        &#xA;    &lt;/tr&gt;&#xA;    &#xA;    &lt;tr&gt;&#xA;        &#xA;        &#xA;        &lt;td&gt;&lt;p&gt;&lt;ol start=&#34;2&#34;&gt;&#xA;&lt;li&gt;Jan 25&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/p&gt;&lt;/td&gt;&#xA;        &#xA;        &#xA;        &#xA;        &lt;td&gt;&lt;p&gt;&lt;ul&gt;&#xA;&lt;li&gt;Alloy Tour (a, b, c)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/p&gt;&lt;/td&gt;&#xA;        &#xA;        &#xA;    &lt;/tr&gt;&#xA;    &#xA;    &lt;tr&gt;&#xA;        &#xA;        &#xA;        &lt;td&gt;&lt;p&gt;&lt;ol start=&#34;3&#34;&gt;&#xA;&lt;li&gt;Feb 1&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/p&gt;&lt;/td&gt;&#xA;        &#xA;        &#xA;        &#xA;        &lt;td&gt;&lt;p&gt;&lt;ul&gt;&#xA;&lt;li&gt;Alloy Tour (d, e)&lt;/li&gt;&#xA;&lt;li&gt;Project 1: Basic Alloy (due &lt;strong&gt;Feb 15&lt;/strong&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/p&gt;&lt;/td&gt;&#xA;        &#xA;        &#xA;    &lt;/tr&gt;&#xA;    &#xA;    &lt;tr&gt;&#xA;        &#xA;        &#xA;        &lt;td&gt;&lt;p&gt;&lt;ol start=&#34;4&#34;&gt;&#xA;&lt;li&gt;Feb 8&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/p&gt;&lt;/td&gt;&#xA;        &#xA;        &#xA;        &#xA;        &lt;td&gt;&lt;p&gt;&lt;ul&gt;&#xA;&lt;li&gt;Alloy Logic (b, c)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/p&gt;&lt;/td&gt;&#xA;        &#xA;        &#xA;    &lt;/tr&gt;&#xA;    &#xA;    &lt;tr&gt;&#xA;        &#xA;        &#xA;        &lt;td&gt;&lt;p&gt;&lt;ol start=&#34;5&#34;&gt;&#xA;&lt;li&gt;Feb 15&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/p&gt;&lt;/td&gt;&#xA;        &#xA;        &#xA;        &#xA;        &lt;td&gt;&lt;p&gt;&lt;ul&gt;&#xA;&lt;li&gt;Alloy Logic (d, e)&lt;/li&gt;&#xA;&lt;li&gt;Project 2: Advanced Alloy (due &lt;strong&gt;Mar 8&lt;/strong&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Syllabus</title>
+      <link>https://s26.softwarespecs.santoslab.org/syllabus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://s26.softwarespecs.santoslab.org/syllabus/</guid>
+      <description>&lt;hr&gt;&#xA;&lt;h4 id=&#34;learning-outcomes&#34;&gt;Learning Outcomes&lt;/h4&gt;&#xA;&lt;p&gt;The student should become familiar with technologies for software specification and verification that provide deep semantic reasoning about development artifacts such as functional models, architecture, and source-code implementations.&lt;/p&gt;&#xA;&lt;h4 id=&#34;topics&#34;&gt;Topics&lt;/h4&gt;&#xA;&lt;p&gt;After a brief introduction, we shall cover:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Alloy which brings specifications to life by allowing designers to query constructed models via its constraint analyzer and to easily assess the impact of model refinements.&lt;/li&gt;&#xA;&lt;li&gt;SysMLv2 which is the upcoming modeling language in practice, with the HAMR framework providing some useful code generation/testing capabilities and for reasoning about GUMBO contract specifications.&lt;/li&gt;&#xA;&lt;li&gt;Verus which is a Rust program verifier.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h4 id=&#34;books&#34;&gt;Books&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://softwareabstractions.org/&#34;&gt;Software Abstraction, by Daniel Jackson&lt;/a&gt; (recommended)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h4 id=&#34;schedule&#34;&gt;Schedule&lt;/h4&gt;&#xA;&lt;p&gt;Only online.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
